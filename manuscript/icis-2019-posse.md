@@ -51,106 +51,75 @@ by a common interest (Eck and Uebernickel 2016; Selander et al. 2013).”
 
 # Related Work
 
-## Open Source Software Ecosystems
+## Mobile Platforms and Ecosystems
 
-Modern software is no longer developed as a stand-alone, monolithic system, but
-increasingly platform-based [@Hanseth2010], which means that the software is
-based on a modular architecture with a stable core at the center that provides
-interfaces for complementary software pieces that can be build by external
-actors [@Baldwin2000; @Baldwin2009]. When the platform orchestrator opens the
-software platform to external developers, it transitions to a software ecosystem
-[@Bosch2009; @Messerschmitt2003]. The platform, its orchestrator, and all the
-complementary software pieces and their creators form the platform’s ecosystem
-[@Jacobides2018]. By forming a software ecosystem, the participants can together
-increase the value of their innovations through increasing usage of the platform
-and its complementary software [@Gawer2008]. Hence, platform-based software
-relies on contribution by third-party developers that contribute complementary
-software (i.e., applications, extensions, plugins, modules, etc.)
-[@Cusumano2002; @Parker2017; @Tiwana2013; @Tiwana2010b]. In an ecosystem, in
-general, the interacting participants depend on each other’s activities
-[@Jacobides2018]. Applied to an open source software ecosystem, not only do the
-developers depend on others contribution to the software code, but also the
-complementary software pieces depend on other software pieces developed by
-different developers. These software pieces are targeted at developers and
-“designed to be reused and to provide functionality to other software projects”
-[@Haefliger2008, 180]. Thereby, the platform functions as a hub with the
-complementary software pieces as spokes connected through application
-programming interfaces or other technical standards [@Jacobides2018].
-Coordination cost as a problem in open source software. But because the software
-is build around a platform, it reduces the coordination cost with developers,
-which allows multiple external actors to contribute to the open source project.
-This is achieved through the modular architecture of the software and the
-interactions of different parts of the software through standardized interfaces.
-Thus, the third-party developers does not need to have full information about
-the functionality of the software behind the interface. Hence, modularity allows
-for the coordination of heterogeneous third-party developers that contribute
-interdependent modules through an ecosystem [@Jacobides2018].
+The technological advances have fueled an increasing infusion of digital
+capabilities into products, which leads to new functionalities, products, and
+use cases (Yoo et al. 2010). Those digitized products can concurrently function
+as products and platforms, thus becoming digital product platforms (Yoo et al.
+2010). For example, with the digitization of the mobile phone, Apple created a
+new mobile platform around its iPhone and the related App Store through the
+separation of the software and hardware layer, which enables the
+reprogrammability of the product (Yoo et al. 2010). From a software perspective,
+mobile platforms are commonly defined as “software-based systems that provide
+functionality to support the development of mobile applications and transactions
+among multiple sets of actors” (Ye and Kankanhalli 2018, p. 166). However, this
+definition falls short in accounting for the hardware layer of mobile platforms.
+Hence, in the context of this paper, we adopt the definition of Teece (2018) and
+define mobile platforms as “any combination of hardware and software that
+provides standards, interfaces, and rules that enable and allow providers of
+complements to add value and interact with each other and/or users” (p. 1375).
 
-To the point of technical dependencies in POSSE
+From an architectural perspective, mobile platforms are enabled by an underlying
+modular architecture that divides the system into a set of stable components
+with low variety (i.e., the platform core) and a set of peripheral components
+with high variety (i.e., complements), which are connected via standardized
+interfaces (Baldwin and Woodard 2009). This architecture allows third-party
+actors to provide software (e.g., apps) and hardware complements (e.g., screen)
+to the platform core, thereby increasing the value of the platform for its
+users. Those technical complements together with the involved stakeholder, such
+as the platform owner, third-party application developers and hardware
+providers, as well as the users, constitute the mobile platform ecosystem (Qiu
+et al. 2017).
 
-Not only do ecosystem rely on third-party developers and their complementary
-software. Especially in the context of open source, the third-party developers
-plays an important role in the enhancement of the core platform and also its
-popularization [@Setia2012].
+One focus of the research stream on mobile platform ecosystems is the
+governanceorganizing mechanisms between the platform owner and the third-party
+providers (Jacobides et al. 2018). However, the focus of these studies has been
+on the software layer of mobile platforms focusing on providers of complementary
+software complements. For example, xxx. Hence, hardware perspective missing and
+needed, xxx
 
-## Influence of Social Networks on Open Source Projects
+Concluding, xxx
 
-Success of the open source model has led to an increase in open source software
-projects and new ideas on how innovation should be managed [@Singh2011].
+## Platform Governance
 
-> “Several software-specific characteristics have been attributed to an open
-> source project’s success, including the software type, intended audience,
-> reputation of developers, licensing scope, and organizational sponsorship
-> (Chengalur-Smith and Sidorova 2003; Lerner and Tirole 2005; Stewart et al.
-> 2006).” [@Singh2011]
+Since the IBM PC and later with the introduction of Apple’s App Store for the
+iPhone mobile platform, organizations have adopted a strategy of allowing
+third-party actors to contribute complements to the platform’s ecosystem
+(Boudreau 2012). Thus, organizations aim to attract heterogeneous actors to
+design and produce novel components on layers outside of its digital product
+platform (Yoo et al. 2010). Once the platform owner opens the platform to
+third-party complements, the platform’s ecosystem has to be carefully governed,
+balancing between maintaining control and granting autonomy to foster innovation
+(Tiwana et al. 2010; Wareham et al. 2014). Hence, platform governance can
+loosely be defined as “who makes what decisions about a platform” (Tiwana et al.
+2010, p. 679).
 
-> “While these studies shed light on several important factors that affect the
-> success of open source projects, a significant limitation of these studies is
-> that they fail to consider the project production process and the broader
-> social environment in which developers work. Thus, these studies implicitly
-> rely on an atomistic and/or under-socialized view of open source projects
-> according to which the production of the software is governed only by the
-> characteristics of the software and is independent of the knowledge resources
-> available to the project developers.” [@Singh2011]
+On the software layer, the platform owner designs boundary resources to govern
+the relationship with third-party application developers (Ghazawneh and
+Henfridsson 2013; Eaton et al. 2015), which can be of technical (e.g., SDKs,
+APIs) or social nature (e.g., documentations, guidelines) (Bianco et al. 2014).
+xxx
 
-- Influences of community / social structure on the code / project architecture
-- Effect of code architecture (i.e., modularity and option value) on developer
-  incentives to join and remain and the amount of free riding [@Baldwin2006]
-- Research on open source phenomenon focused on coordination (Lindberg et al.
-  2016), motivation (Stewart et al. 2006; von Krogh et al. 2012), requirements
-  engineering (Xiao et al. 2018)
-- Organizational sponsorship to OSS projects could serve as a cue when
-  evaluating an OSS (Stewart et al. 2006)
-- In addition, the research on open source has focused on the participation of
-  third-party developers
-  - Setia et al. (2012) investigated the effect of third-party participation on
-    open source software product quality and product diffusion
-- Potentially relevant articles:
-  - Hahn, J., Moon, J. Y., and Zhang, C. 2008. “Emergence of New Project Teams
-    from Open Source Software Developer Networks: Impact of Prior Collaboration
-    Ties,” Information Systems Research (19:3), pp. 369–391.
-    (https://doi.org/10.1287/isre.1080.0192).
-  - Ho, S. Y., and Rai, A. 2017. “Continued Voluntary Participation Intention in
-    Firm-Participating Open Source Software Projects,” Information Systems
-    Research (28:3), pp. 603–625. (https://doi.org/10.1287/isre.2016.0687).
-  - Stewart, K. J., and Gosain, S. 2006. “The Impact of Ideology on
-    Effectiveness in Open Source Software Development Teams,” MIS Quarterly
-    (30:2), pp. 291–314. (https://doi.org/10.2307/25148732).
-  - Stewart, K. J., Ammeter, A. P., and Maruping, L. M. 2006. “Impacts of
-    License Choice and Organizational Sponsorship on User Interest and
-    Development Activity in Open Source Software Projects,” Information Systems
-    Research (17:2), pp. 126–144.
-  - Roberts, J. A., Hann, I.-H., and Slaughter, S. A. 2006. “Understanding the
-    Motivations, Participation, and Performance of Open Source Software
-    Developers: A Longitudinal Study of the Apache Projects,” Management Science
-    (52:7), pp. 984–999. (https://doi.org/10.1287/mnsc.1060.0554).
-  - Setia, P., Rajagopalan, B., Sambamurthy, V., and Calantone, R. 2012. “How
-    Peripheral Developers Contribute to Open-Source Software Development,”
-    Information Systems Research (23:1), pp. 144–163.
-    (https://doi.org/10.1287/isre.1100.0311).
-  - Shaikh, M., and Vaast, E. 2016. “Folding and Unfolding: Balancing Openness
-    and Transparency in Open Source Communities,” Information Systems Research
-    (27:4), pp. 813–833. (https://doi.org/10.1287/isre.2016.0646).
+Our key departure lies in the observation that platform owners also exercise
+governance mechanisms on the hardware layer of the mobile platform. For example,
+xxx. Yet, the literature has not yet accounted for these types of governance
+mechanisms on the hardware layer, nor examined how the mechanisms on the
+software and hardware layer might interact. Instead, so far the hardware layer
+has been conceptualized as part of a “stable core“ under the centralized control
+of the platform owner and remains untouched by third-parties (xxx). In what
+follows, we report on our ongoing empirical study of a case setting where this
+assumption, and view, are being challenged.
 
 # Research Design
 
