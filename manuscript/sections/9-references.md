@@ -1,5 +1,3 @@
-# Introduction
-
 # References
 
 \tolerance=1 \emergencystretch=\maxdimen \hyphenpenalty=10000 \hbadness=10000

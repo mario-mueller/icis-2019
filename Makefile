@@ -95,11 +95,11 @@ clean:
 
 merge:
 	@echo "Merging seperate sections into single manuscript file..."
-	@-pandoc $(PANDOC_MD_OPTIONS) -o $(SOURCE)/icis-2019-rip.md $(SOURCE)/sections/*.md
+	@-pandoc $(PANDOC_MD_OPTIONS) -o $(SOURCE)/icis-2019-posse.md $(SOURCE)/sections/*.md
 
 prettify:
 	@echo "Prettify merged manuscript file..."
-	@-prettier --config ./.prettierrc.yml --write $(SOURCE)/icis-2019-rip.md
+	@-prettier --config ./.prettierrc.yml --write $(SOURCE)/icis-2019-posse.md
 
 references:
 	@echo "Generating .bib file based on cited references..."
@@ -113,7 +113,7 @@ transform:
 	@-pandoc --atx-headers --wrap=preserve --track-changes=all -s $(SOURCE_FILE) -t markdown -o $(TARGET_FILE)
 
 tex: clean merge prettify $(TEX)
-pdf: clean $(PDF)
+pdf: clean merge prettify $(PDF)
 docx: clean merge prettify $(DOCX)
 odt: clean merge prettify $(ODT)
 

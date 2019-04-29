@@ -10,11 +10,11 @@ Systems (ICIS) 2019 in Munich, Germany.
 
 ## Authors
 
-| Mario Mueller                                 | Phil Diegmann                                 |
+| Mario Mueller                                 | Christoph Rosenkranz                          |
 | :-------------------------------------------- | :-------------------------------------------- |
 | University of Cologne                         | University of Cologne                         |
 | Albertus-Magnus-Platz, 50923 Cologne, Germany | Albertus-Magnus-Platz, 50923 Cologne, Germany |
-| mario.mueller@wiso.uni-koeln.de               | diegmann@wiso.uni-koeln.de                    |
+| mario.mueller@wiso.uni-koeln.de               | rosenkranz@wiso.uni-koeln.de                  |
 
 ## Abstract
 
@@ -25,4 +25,5 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
 culpa qui officia deserunt mollit anim id est laborum.
 
-\_**Keywords**: Open Source; Software Ecosystems; Digital Platform
+_**Keywords**: Platform-based Software Ecosystems; Digital Innovation;
+Generative Properties; Boundary Resources_
