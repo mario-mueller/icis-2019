@@ -258,6 +258,109 @@ social or technical networks predicts growth of an ecosystem. Especially by
 including a temporal dimension, we are able to identify cause and effect more
 clearly [cf.  @Lindberg2019].
 
+# Expected Results
+
+Answering our research question as stated above, we expect social networks,
+derived from the collaboration networks of cores and modules, to have an effect
+on technical networks, derived from the dependencies of modules within
+ecosystems. In detail, we expect to see that if collaboration networks are of
+less modularity, dependency networks are as well. We expect this to occur, as
+developers bring their own technical experience and knowledge into the projects
+they are working on -- including modules they have used before. This means, that
+if developers collaborate on different modules together, they might use the same
+dependencies across multiple modules.
+
+Regarding the interrelation of structure and technical dependencies, we see,
+apriori, no indication for the structure (i.e., collaborators) to follow the
+technical dependencies -- we would, as done above, argue for an inverse effect
+(i.e., the technical dependencies to follow the collaborators). In our specific
+context, we imagine only marginal cases in which the social network (i.e.,
+collaborators) changes due to changes in the technical network (i.e.,
+dependencies) -- for instance, only due to a help request from the collaborators
+of the including module towards collaborators of the dependency).
+
+Further, we expect number of modules to correlate with download numbers, as a
+higher number of available modules might increase the value of an ecosystem for
+developers, as more modules might increase reuse and the chance to find a
+suitable module for a problem at hand.
+
+However, due to the explorative nature of this study, we remain open to
+different results and different explanations [cf.  @Lindberg2019].
+
+# Future Plan
+
+Until the International Conference on Information Systems in December 2019, we
+plan to accomplish multiple further steps towards our final goal. First, we plan
+to have completed data collection (i.e., have collected all data from GitHub and
+npm for all three cases). This step includes cross referencing data across
+GitHub and npm (e.g., releases from npm and commits included in this commit from
+GitHub). As the data crawler has already been written, we expect this step to be
+completed around July of 2019. Second, we plan to create an internal research
+memo on initial observations from the collected data. This step is important to
+have a clearer understanding of the structure of the data and to prepare for
+detailed quantitative analysis. We expect this step to be completed by October
+of 2019. Third, we plan on conducting a detailed quantitative analysis before
+December of 2019, which contents have been laid out in the previous section.
+Lastly, if time permits, we hope to have derived preliminary implications for
+research and practice based on the detailed quantitative data analysis.
+
+# Discussion
+
+## Risks and Challenges
+
+Regarding risks and challenges for the described research project, we identified
+three main areas: technical challenges, analytical challenges, and challenges
+for contribution.
+
+First, as we have a completed the programming of a data crawler, we only see one
+technical challenge. As GitHub is throttling and limiting requests to their API,
+we cannot download all the data we need in a single request or as fast as our
+internet connection would allow. While this might be annoying, it is not a
+threat to the research project -- it clearly delays the completion date of this
+research project, but does not threaten the success in general. Further, it is
+technically possible to use modules without downloading releases via npm by
+downloading the source code directly from GitHub. However, this is unlikely to
+occur often due to the ease-of-use and added benefits (e.g., automatic updates
+of dependencies) by using npm.
+
+Second, and related to the first challenge, we expect the collected data set to
+be large -- both in terms of rows, due to the amount of releases and commits,
+and in terms of size (i.e., gigabytes), due to the included textual descriptors.
+The size of the data set is a challenge as it is more difficult to handle during
+analysis. However, as only limited manual analysis is needed (see section "Data
+Analysis") and as computational resources are available to us, we do not expect
+the size of the dataset to threaten the success of this research project.
+Similar to the previous challenge, we---at worst---only expect a delay.
+
+Third, we see challenges for our contribution. Without a qualitative analysis,
+meaning has to be derived by application of extant theories. We cannot rely on
+context-giving clues as can be done with qualitative approaches. Depending on
+our findings---for instance, if we cannot explain a finding---we might only be
+able to report some findings, without providing reasons or explanations.
+
+## Expected Contribution
+
+Based on the above described approach, we expect to contribute to the research
+on platform-based open-source ecosystems as following: having insight into how
+social and technical networks (i.e., collaborators and dependencies) are
+interconnected, reveals interdependencies and enables conclusions on who drives
+which aspects in the development in and ultimately the growth of platform-based
+open-source ecosystems. Being able to explain why some ecosystems are more
+successful or are growing faster than others, based on the social and technical
+networks underlying these ecosystems, enables developers of such ecosystems to
+take corrective actions. Further, this insight creates an avenue for future
+research, explaining in more detail, how such more successful networks can be
+created and maintained.
+
+# Conclusion
+
+Coming back to the research question posted at the beginning of this paper, we
+target the interactions of social and technical networks in platform-based open
+source ecosystems as our main objective. We plan on investigating these
+interaction with the help of a multiple case study of three popular ecosystems.
+In this paper, we argued why the social and technical networks might interact
+and described our plan on how to gather and analyse data to test our hypothesis.
+
 # References
 
 \tolerance=1 \emergencystretch=\maxdimen \hyphenpenalty=10000 \hbadness=10000
