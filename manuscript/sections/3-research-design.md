@@ -10,8 +10,8 @@ digital trace data (Lindberg 2019). Here, we refer to digital trace data as
 (Berente et al. 2019, p. 51).
 
 The cases are sampled following a theoretical sampling strategy. Looking for
-similar and established POSSE, we identified three suitable cases: (1) Angular
-(https://angular.io/), (2) React (https://reactjs.org/), (3) and Vue
+similar and established POSSE, we identified three suitable cases: (1)
+Angular[^1](https://angular.io/), (2) React (https://reactjs.org/), (3) and Vue
 (https://vuejs.org/). All cases are currently among the most popular
 front-end-frameworks for web- or web-app-development (Stack Overflow 2019).
 Further, they are suitable as all three ecosystems share similarities: they are
@@ -20,7 +20,10 @@ basis for web- or app-development. While their respective implementations might
 differ, the ecosystems also remain similar due to their shared intent (i.e.,
 front-end frameworks). Table 1 provides an overview of all three cases.
 
-´´´table ´´´
+```{.table file="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrJ70zxeSEP32qRYyoIyiwmMVUu3mu-XwGhpZprxWAvWNyOqcFhjEqVk2xoLPr7N1ibmttJ260nbYn/pub?gid=0&single=true&output=csv" delimiter="," header="yes" align="LCCC" inlinemarkdown="yes"
+caption="Overview of Cases" width="0.25 0.25 0.25 0.25"}
+
+```
 
 ## Data Collection
 
@@ -111,3 +114,7 @@ regression analysis, we plan then on demonstrating which of the above mentioned
 measures regarding social or technical networks predicts growth of an ecosystem.
 Especially by including a temporal dimension, we are able to identify cause and
 effect more clearly (cf. Lindberg 2019).
+
+```
+
+```
