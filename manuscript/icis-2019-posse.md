@@ -155,8 +155,8 @@ digital trace data (Lindberg 2019). Here, we refer to digital trace data as
 
 The cases are sampled following a theoretical sampling strategy. Looking for
 similar and established POSSE, we identified three suitable cases: (1)
-Angular\[\^1\](https://angular.io/), (2) React (https://reactjs.org/), (3) and
-Vue (https://vuejs.org/). All cases are currently among the most popular
+Angular[^1](https://angular.io/), (2) React (https://reactjs.org/), (3) and Vue
+(https://vuejs.org/). All cases are currently among the most popular
 front-end-frameworks for web- or web-app-development (Stack Overflow 2019).
 Further, they are suitable as all three ecosystems share similarities: they are
 written in JavaScript or derivatives (i.e., TypeScript) and aim at providing a
@@ -264,3 +264,8 @@ effect more clearly (cf. Lindberg 2019).
 
 \setlength\parindent{-0.63cm} \setlength\parskip{0cm}
 \setlength\leftskip{0.63cm} \noindent
+
+[^1]:
+
+  Note: Angular needs to be differentiated from AngularJS, as Angular has
+  emerged from a complete rewrite of AngularJS.

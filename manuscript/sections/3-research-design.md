@@ -20,6 +20,11 @@ basis for web- or app-development. While their respective implementations might
 differ, the ecosystems also remain similar due to their shared intent (i.e.,
 front-end frameworks). Table 1 provides an overview of all three cases.
 
+[^1]:
+
+  Note: Angular needs to be differentiated from AngularJS, as Angular has
+  emerged from a complete rewrite of AngularJS.
+
 ```{.table file="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrJ70zxeSEP32qRYyoIyiwmMVUu3mu-XwGhpZprxWAvWNyOqcFhjEqVk2xoLPr7N1ibmttJ260nbYn/pub?gid=0&single=true&output=csv" delimiter="," header="yes" align="LCCC" inlinemarkdown="yes"
 caption="Overview of Cases" width="0.25 0.25 0.25 0.25"}
 
