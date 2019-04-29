@@ -1,5 +1,6 @@
 <h1 align="center">
-  ICIS 2019 RiP </br>
+Digital Habitats in Open Source Ecosystems: Uncovering Communities Using
+Social and Technical Digital Traces </br>
   <a href="https://icis2019.aisconferences.org/">
     <img alt="ICIS 2019 Banner" src="/assets/img/banner-icis-2019.jpg" width="480" />
   </a>
@@ -10,11 +11,9 @@ Systems (ICIS) 2019 in Munich, Germany.
 
 ## Authors
 
-| Mario Mueller                                 | Christoph Rosenkranz                          |
-| :-------------------------------------------- | :-------------------------------------------- |
-| University of Cologne                         | University of Cologne                         |
-| Albertus-Magnus-Platz, 50923 Cologne, Germany | Albertus-Magnus-Platz, 50923 Cologne, Germany |
-| mario.mueller@wiso.uni-koeln.de               | rosenkranz@wiso.uni-koeln.de                  |
+- Mario Müller, University of Cologne, mario.mueller@wiso.uni-koeln.de
+- Phil Diegmann, University of Cologne, diegmann@wiso.uni-koeln.de
+- Christoph Rosenkranz, University of Cologne, rosenkranz@wiso.uni-koeln.de
 
 ## Abstract
 
@@ -25,5 +24,5 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
 culpa qui officia deserunt mollit anim id est laborum.
 
-_**Keywords**: Platform-based Software Ecosystems; Digital Innovation;
-Generative Properties; Boundary Resources_
+_**Keywords**_: Open Source; Platform-based Ecosystems; Digital Traces; Social
+Networks; Technical Dependencies
