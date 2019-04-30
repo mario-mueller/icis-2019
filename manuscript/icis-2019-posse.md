@@ -4,22 +4,21 @@ The success of open source software [@Lerner2002] and the trend away from
 monolithic to platform-based software systems [@Hanseth2010] have created
 large-scale software ecosystems, which we refer to as _platform-based open
 source software ecosystems_ (POSSE). POSSE are digital ecosystems consisting of
-digital artifacts [@Kallinikos2013] that are open source software modules
-[@Eck2016]. These modules interact with the digital ecosystem's central platform
-through standardized interfaces and add additional functionality or value to the
-digital platform [@Tiwana2010b; @deReuver2018]. Hence, digital ecosystems are
-seen as a growing source of innovation, where capabilities shift from within an
-organization to third-party developers [@Parker2017; @Yoo2013; @Yoo2010a], which
-has led to an increasing research interest on the phenomenon of digital
-ecosystems [@Jacobides2018].
+digital artifacts [@Kallinikos2013] that are open source software (OSS) modules
+[@Eck2016]. These modules interact with the digital ecosystem's platform core
+through standardized interfaces and add functionality or value to the digital
+platform [@Tiwana2010b; @deReuver2018]. Hence, digital ecosystems are a growing
+source of innovation, where capabilities shift from within an organization to
+third-party developers [@Parker2017; @Yoo2013; @Yoo2010a], which has led to an
+increasing research interest on the phenomenon of POSSE [@Jacobides2018].
 
 In those ecosystems, developers make use of existing modules through a process
-of recombination and remixing when building additional modules, which they then
-contribute to the POSSE. Out of this process, two interconnected networks arise:
-(1) a hierarchy of technical dependencies from one module to the next
-[@MacCormack2006], and (2) a social network of actors, contributing their skill
-and time to multiple modules [@Roberts2006]. As developers as actors form
-relationships and contribute to different modules and therefore transfer
+of recombination and remixing when building modules, which they then contribute
+to the POSSE. Out of this process, two interconnected networks arise: (1) a
+hierarchy of _technical dependencies_ from one module to the next
+[@MacCormack2006], and (2) a social network of _actors_, contributing their
+skill and time to multiple modules [@Roberts2006]. As developers as actors form
+relationships and contribute to different modules and thereby transfer
 knowledge, they might introduce new technical dependencies, therefore coupling
 the social and technical networks. Similarly, as new technical dependencies are
 introduced to a module, developer networks might change as well -- for instance
@@ -28,25 +27,28 @@ changes of technical dependencies over time and whether or not to upgrade a
 dependency [@Bavota2013]. Similarly, social aspects such as relations among
 developers have been investigated as well, for example, with regard to the
 effects of prior collaboration [@Hahn2008] or how open source software teams are
-structured [@Crowston2006]. While some studies have shown that the technical
-architecture can influence participation in projects [e.g., @Baldwin2006;
-@MacCormack2006], the direction and consequence of changes of social or
-technical networks in POSSE have yet to be uncovered. This understanding of the
-relationship between the technical and social layers, and how they influence
-each other's structure could explain the growth of those ecosystems and form
-critical success factors of POSSE. Accordingly, we ask:
+structured [@Crowston2006].
 
-> _"How do social networks and technical dependencies interact in platform-based
-> open source software ecosystems?"_
+While some studies have shown that the technical architecture can influence
+participation in projects [e.g., @Baldwin2006; @MacCormack2006], the direction
+and consequence of changes of social or technical networks in POSSE have yet to
+be uncovered. This understanding of the relationship between the technical and
+social layers, and how they influence each other's structure, could explain the
+growth of those ecosystems and form critical success factors of POSSE.
+Accordingly, we ask:
+
+> "_How do social networks and technical dependencies interact in platform-based
+> open source software ecosystems?_"
 
 To answer our research question, we propose to conduct a study of three of the
 most popular frontend development frameworks (i.e., Angular, React, and Vue) and
 their respective digital ecosystems. In doing so, we aim to analyze both the
-technical and social networks of those ecosystems with data gathered from the
-projects' GitHub and npm repositories. For our analysis, we will primarily use
-network analysis techniques (i.e., cluster, temporal, and network motif
-analyses). The aim of our study is to uncover the underlying patterns and
-structures covering the social and technical perspective of POSSE.
+technical and social networks of those ecosystems with digital trace data
+[@Berente2019] gathered from the projects' GitHub and npm repositories. For our
+analysis, we will primarily use network analysis techniques (i.e., cluster,
+temporal, and network motif analyses). The aim of our study is to uncover the
+underlying patterns and structures covering the social and technical perspective
+of POSSE.
 
 These findings contribute to theory and practices by, first, proposing a
 socio-technical approach for analyzing POSSE, combining both the technical and
@@ -67,35 +69,33 @@ challenges, risks, and our expected contributions.
 
 ## Platform-based Open Source Software Ecosystems
 
-Popular open source software (OSS), such as the Linux kernel or Node, are
-platform-based, which means that they evolve around a _digital platform_ that is
-the "extensible codebase of a software-based system that provides core
-functionality shared by the modules that interoperate with it and the interfaces
-through which they interoperate" [@Tiwana2010b, 675]. When the platform
-orchestrator opens the digital platform for external developers, it transitions
-to a _software ecosystem_ [@Bosch2009; @Messerschmitt2003]. In software
-ecosystems, third-party developers contribute their time, knowledge, and skill
-to increase the value of the ecosystem by participating in it through the
-contribution of modules [@Roberts2006], which are "add-on software subsystem
-that connect to the platform to add functionality to the platform"
-[@Tiwana2010b, 676]. In this scenario, the platform functions as a hub with the
-complementary modules as spokes connected through application programming
-interfaces (APIs) or other technical standards [@Jacobides2018]. Accordingly, we
-define _platform-based open source software ecosystems_ (POSSE) as "a collection
-of digital artifacts \[i.e., modules\] that co-evolve through mutual
-interference, and the social actors related to these artifacts that are linked
-by a common interest" [@Eck2016].
+Popular OSS, such as the Linux kernel or Node, are platform-based, which means
+that they evolve around a _digital platform_ that is the "extensible codebase of
+a software-based system that provides core functionality shared by the modules
+that interoperate with it and the interfaces through which they interoperate"
+[@Tiwana2010b, 675]. When the platform orchestrator opens the digital platform
+for external developers, it transitions to a _software ecosystem_ [@Bosch2009;
+@Messerschmitt2003]. In software ecosystems, third-party developers contribute
+their time, knowledge, and skill to increase the value of the ecosystem by
+participating in it through the contribution of modules [@Roberts2006], which
+are "add-on software subsystem that connect to the platform to add functionality
+to the platform" [@Tiwana2010b, 676]. In this scenario, the platform functions
+as a hub with the complementary modules as spokes connected through application
+programming interfaces (APIs) or other technical standards [@Jacobides2018].
+Accordingly, we define _platform-based open source software ecosystems_ (POSSE)
+as "a collection of digital artifacts \[i.e., modules\] that co-evolve through
+mutual interference, and the social actors related to these artifacts that are
+linked by a common interest" [@Eck2016, 2].
 
 By enabling contributions by external actors, digital ecosystems are seen as a
 growing source of innovation where capabilities shift to the outside of the
 organization [@Parker2017; @Yoo2013; @Yoo2010a]. The modular architecture allows
 for the coordination of heterogeneous third-party developers that contribute
-interdependent modules through an ecosystem [@Jacobides2018], removing
-third-party developers from the underlying code and enabling contributions
-without full information about the functionality of the software behind the
-interface. This opens up POSSE for contributions from a wide range of developers
-and therefore raises the importance of understanding the interdependencies of
-social and technical layers involved.
+interdependent modules through an ecosystem [@Jacobides2018] in which
+interoperability with the platform core is ensured through the usage of the
+platform's interfaces [@Tiwana2015]. This opens up POSSE for contributions from
+a wide range of developers and therefore raises the importance of understanding
+the interdependencies of social and technical layers involved. xxx
 
 ## Social and Technical Interdependencies in Open Source Projects
 
@@ -121,12 +121,12 @@ and contain both technical and social aspects. From a technical perspective, the
 digital ecosystem of a platform consists of the platform itself and
 complementary applications build by third-party developers [@Cusumano2002;
 @Tiwana2013]. From a social perspective, the platform, its orchestrator, and all
-the complementary software modules and their creators form the platform's
-ecosystem [@Jacobides2018]. Hence, POSSE do not only consist of the platform
-core, its interfaces, and related modules, but also include those third-party
-developers that contribute to the software ecosystem and thereby generate
-additional value for the platform and its users through increasing usage of the
-platform and its complementary software [@Gawer2008].
+the complementary modules and their creators form the platform's ecosystem
+[@Jacobides2018]. Hence, POSSE do not only consist of the platform core, its
+interfaces, and related modules, but also include those third-party developers
+that contribute to the software ecosystem and thereby generate additional value
+for the platform and its users through increasing usage of the platform and its
+complementary software [@Gawer2008].
 
 Originating in biology, the term of a habitat is closely linked to ecosystems
 and has been defined as the area in which a community (in this case a group of
@@ -144,7 +144,7 @@ POSSE---this combination of forces is a worthwhile area for research.
 
 # Preliminary Research Design
 
-## Research Method & Case Description
+## Research Method & Study Description
 
 For this research project, we adopt a data-driven computational approach for
 theory development, following the recommendations for grounded theory
@@ -153,10 +153,10 @@ trace data [@Lindberg2019]. Here, we refer to digital trace data as "digital
 records of activities and events that involve information technologies"
 [@Berente2019, 51].
 
-The cases are sampled following a theoretical sampling strategy. Looking for
-similar and established POSSE, we identified three suitable cases: (1) Angular
-(https://angular.io/)[^1], (2) React (https://reactjs.org/), (3) and Vue
-(https://vuejs.org/). All cases are currently among the most popular
+We selected the three cases by following a theoretical sampling strategy.
+Looking for similar and established POSSE, we identified three suitable cases:
+(1) Angular[^1](https://angular.io/), (2) React (https://reactjs.org/), (3) and
+Vue (https://vuejs.org/). All cases are currently among the most popular
 front-end-frameworks for web- or web-app-development [@StackOverflow2019].
 Further, they are suitable as all three ecosystems share similarities: they are
 written in JavaScript or derivatives (i.e., TypeScript) and aim at providing a
@@ -164,9 +164,10 @@ basis for web- or app-development. While their respective implementations might
 differ, the ecosystems also remain similar due to their shared intent (i.e.,
 front-end frameworks). Table 1 provides an overview of all three cases.
 
-```{.table file="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrJ70zxeSEP32qRYyoIyiwmMVUu3mu-XwGhpZprxWAvWNyOqcFhjEqVk2xoLPr7N1ibmttJ260nbYn/pub?gid=0&single=true&output=csv" delimiter="," header="yes" align="LCCC" inlinemarkdown="yes" caption="Overview of Cases" width="0.25 0.25 0.25 0.25"}
+<!-- ```{.table file="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrJ70zxeSEP32qRYyoIyiwmMVUu3mu-XwGhpZprxWAvWNyOqcFhjEqVk2xoLPr7N1ibmttJ260nbYn/pub?gid=0&single=true&output=csv" delimiter="," header="yes" align="LCCC" inlinemarkdown="yes"
+caption="Overview of Selected Ecosystems" width="0.25 0.25 0.25 0.25"}
 
-```
+``` -->
 
 ## Data Collection
 
@@ -180,33 +181,33 @@ provide public access to their data via an API, we will prioritize a
 first-hand-access.
 
 From GitHub, we are able to collect detailed information about the collaborators
-and the commits made for both the central framework (i.e., core) and for each
-module. Further, we are able to collect data on the lines of code (additions and
-deletions) for every commit and who committed these lines of code to the core or
-module as well as comments made by contributors or other users.
+and the commits made for both the platform core) and for each module. Further,
+we are able to collect data on the lines of code (additions and deletions) for
+every commit and who committed these lines of code as well as comments made by
+contributors or other users.
 
-From npm, we are able to collect detailed information about the releases of
-every ecosystem -- both for the core and for each published module. Included in
-these details is a list of dependencies that a core or module has on other
-packages within npm. Further, we are also able to get information on the
-download counts -- again for the core and each published module -- for each
-single day.
+From npm, we are able to collect detailed information about the releases related
+to the respective ecosystem -- both for the platform core and for each module.
+Included in these details is a list of technical dependencies to other modules
+of the ecosystem for each release. The list of dependencies thereby includes all
+modules that are registered in the npm registry. Further, we are also able to
+get information on the download counts -- again for the platform core and each
+module -- for each single day.
 
-To identify modules for each of the three cases, we utilize the search API
-offered by npm. Via a keyword search on the ecosystem's name, we are able to
-identify every publicly available module for each of the ecosystems. While
-modules for Angular and React are tagged with "angular" and "react"
+To identify modules for each of the three ecosystems, we utilize the search API
+offered by the npm registry. Via a keyword search on the ecosystem's name, we
+are able to identify every publicly available module for each of the ecosystems.
+While modules for Angular and React are tagged with "angular" and "react"
 respectively, modules for vue are tagged "vue", "vue.js", or "vuejs". Including
-the variants, we are able to identify all needed modules.
+these variants, we are able to identify all needed modules.
 
-Combining the data from GitHub and npm, we are able to aggregate measures, such
+Combining the data from GitHub and npm, we are able to aggregate measures such
 as the number of modules available in an ecosystem, the lines of code affected
 by a release, the lines of code per contributor per release, or the lines of
-code per download per day -- giving us a wide range of measures for contribution
-to and growth and success of open-source platform-based ecosystems [cf.
-@Lindberg2019]. Including temporal data (e.g., quarterly downloads from npm), we
-are able to calculate a "velocity" of a core or module, further extending our
-options for later data analysis.
+code per download per day, giving us a wide range of measures for the growth and
+success of POSSE [cf.  @Lindberg2019]. Including temporal data (e.g., quarterly
+downloads from npm), we are able to calculate a "velocity" for the platform core
+and each module, further extending our options for later data analysis.
 
 ## Data Analysis
 
@@ -243,49 +244,54 @@ cluster analysis. For motif analysis, we plan to use the implementation of
 @Wernicke2006's RAND-ESU algorithm of the Python library graph-tools
 (https://graph-tool.skewed.de/).
 
-All these measures will then be used as predictors for our currently main
+All these measures will then be used as predictors for our current main
 independent variable: growth of the ecosystem. In this specific context, we
-define growth as a combination of three indicators: First, we will utilize the
-number of downloads -- for the ecosystem's core and associated modules -- as an
+define growth as a combination of four indicators: first, we will utilize the
+number of downloads -- for the platform core and associated modules -- as an
 indicator for popularity. Second, we will include the number of collaborators
-for the ecosystem's core as an indicator for the growth of the core team [e.g.,
+for the platform core as an indicator for the growth of the core team [e.g.,
 @Setia2012]. Third, we will use the number of lines of code added or deleted as
 an indicator for growth regarding the code base. Utilizing this multi-indicator
 approach enables us to observe an ecosystem's growth on multiple dimensions [cf.
-@Lindberg2019]. With the help of correlation analysis or regression analysis, we
-plan then on demonstrating which of the above mentioned measures regarding
-social or technical networks predicts growth of an ecosystem. Especially by
-including a temporal dimension, we are able to identify cause and effect more
-clearly [cf.  @Lindberg2019].
+@Lindberg2019]. Fourth, we analyze the rate at which modules are added to the
+ecosystem, which not only is an indicator for its growth, but also for the rate
+of innovation in the ecosystem [@Parker2017]. With the help of correlation
+analysis or regression analysis, we plan then on demonstrating which of the
+above mentioned measures regarding social or technical networks predicts growth
+of an ecosystem. Especially by including a temporal dimension, we are able to
+identify cause and effect more clearly [cf.  @Lindberg2019].
 
 # Expected Results
 
-Answering our research question as stated above, we expect social networks,
-derived from the collaboration networks of cores and modules, to have an effect
-on technical networks, derived from the dependencies of modules within
-ecosystems. In detail, we expect to see that if collaboration networks are of
-less modularity, dependency networks are as well. We expect this to occur, as
-developers bring their own technical experience and knowledge into the projects
-they are working on -- including modules they have used before. This means, that
-if developers collaborate on different modules together, they might use the same
-dependencies across multiple modules.
+Due to the explorative nature of this study, we remain open to different results
+and different explanations [cf.  @Lindberg2019]. However, based on existing
+work, we have some prior assertions, which we expect to see.
 
-Regarding the interrelation of structure and technical dependencies, we see,
-apriori, no indication for the structure (i.e., collaborators) to follow the
-technical dependencies -- we would, as done above, argue for an inverse effect
+Answering our research question as stated above, we expect social networks,
+derived from the collaboration networks of modules, to have an effect on
+technical networks, derived from the dependencies of modules within ecosystems.
+In detail, we expect to see that if collaboration networks are of less
+modularity, dependency networks are as well. We expect this to occur because
+developers bring their own technical experience and knowledge into the projects
+they are working on -- including modules they have used before. This means that
+if developers collaborate on different modules together, they might use the same
+dependencies across multiple modules. Hence, these choices made by one
+third-party developer might create trajectories for the remaining third-party
+developers [@Boland2007], especially if they share the same digital habitat.
+
+Regarding the interrelation of structure and technical dependencies, we see a
+priori no indication for the structure (i.e., collaborators) to follow the
+technical dependencies -- we would, as done above, argue for an inverse effect
 (i.e., the technical dependencies to follow the collaborators). In our specific
 context, we imagine only marginal cases in which the social network (i.e.,
 collaborators) changes due to changes in the technical network (i.e.,
 dependencies) -- for instance, only due to a help request from the collaborators
-of the including module towards collaborators of the dependency).
+of the including module towards collaborators of the dependency.
 
 Further, we expect number of modules to correlate with download numbers, as a
 higher number of available modules might increase the value of an ecosystem for
 developers, as more modules might increase reuse and the chance to find a
-suitable module for a problem at hand.
-
-However, due to the explorative nature of this study, we remain open to
-different results and different explanations [cf.  @Lindberg2019].
+suitable module for a problem at hand. Due to network effects, xxx
 
 # Future Plan
 
@@ -295,14 +301,14 @@ to have completed data collection (i.e., have collected all data from GitHub and
 npm for all three cases). This step includes cross referencing data across
 GitHub and npm (e.g., releases from npm and commits included in this commit from
 GitHub). As the data crawler has already been written, we expect this step to be
-completed around July of 2019. Second, we plan to create an internal research
-memo on initial observations from the collected data. This step is important to
-have a clearer understanding of the structure of the data and to prepare for
-detailed quantitative analysis. We expect this step to be completed by October
-of 2019. Third, we plan on conducting a detailed quantitative analysis before
-December of 2019, which contents have been laid out in the previous section.
-Lastly, if time permits, we hope to have derived preliminary implications for
-research and practice based on the detailed quantitative data analysis.
+completed around July 2019. Second, we plan to create an internal research memo
+on initial observations from the collected data. This step is important to have
+a clearer understanding of the structure of the data and to prepare for detailed
+quantitative analysis. We expect this step to be completed by October 2019.
+Third, we plan on conducting a detailed quantitative analysis before December
+2019, which contents have been laid out in the previous section. Lastly, if time
+permits, we hope to have derived preliminary implications for research and
+practice based on the detailed quantitative data analysis.
 
 # Discussion
 
@@ -315,7 +321,7 @@ for contribution.
 First, as we have a completed the programming of a data crawler, we only see one
 technical challenge. As GitHub is throttling and limiting requests to their API,
 we cannot download all the data we need in a single request or as fast as our
-internet connection would allow. While this might be annoying, it is not a
+Internet connection would allow. While this might be annoying, it is not a
 threat to the research project -- it clearly delays the completion date of this
 research project, but does not threaten the success in general. Further, it is
 technically possible to use modules without downloading releases via npm by
@@ -324,33 +330,37 @@ occur often due to the ease-of-use and added benefits (e.g., automatic updates
 of dependencies) by using npm.
 
 Second, and related to the first challenge, we expect the collected data set to
-be large -- both in terms of rows, due to the amount of releases and commits,
-and in terms of size (i.e., gigabytes), due to the included textual descriptors.
-The size of the data set is a challenge as it is more difficult to handle during
-analysis. However, as only limited manual analysis is needed (see section "Data
-Analysis") and as computational resources are available to us, we do not expect
-the size of the dataset to threaten the success of this research project.
-Similar to the previous challenge, we---at worst---only expect a delay.
+be decently large -- both in terms of database rows, due to the amount of
+releases and commits, and in terms of size (i.e., gigabytes), due to the
+included textual descriptors. The size of the data set is a challenge as it is
+more difficult to handle during analysis. However, as only limited manual
+analysis is needed (see section "Data Analysis") and as computational resources
+are available to us, we do not expect the size of the dataset to threaten the
+success of this research project. Similar to the previous challenge, we---at
+worst---only expect a delay.
 
 Third, we see challenges for our contribution. Without a qualitative analysis,
 meaning has to be derived by application of extant theories. We cannot rely on
 context-giving clues as can be done with qualitative approaches. Depending on
 our findings---for instance, if we cannot explain a finding---we might only be
 able to report some findings, without providing reasons or explanations.
+However, this may provide also a source for future contributions and in-depth
+studies.
 
 ## Expected Contribution
 
 Based on the above described approach, we expect to contribute to the research
-on platform-based open-source ecosystems as following: having insight into how
-social and technical networks (i.e., collaborators and dependencies) are
-interconnected, reveals interdependencies and enables conclusions on who drives
-which aspects in the development in and ultimately the growth of platform-based
-open-source ecosystems. Being able to explain why some ecosystems are more
-successful or are growing faster than others, based on the social and technical
-networks underlying these ecosystems, enables developers of such ecosystems to
-take corrective actions. Further, this insight creates an avenue for future
-research, explaining in more detail, how such more successful networks can be
-created and maintained.
+on POSSE as follows: having insight into how social and technical networks
+(i.e., collaborators and dependencies) are interconnected, reveals
+interdependencies and enables conclusions on who drives which aspects in the
+development in and ultimately the growth of POSSE. Being able to explain why
+some ecosystems are more successful or are growing faster than others, based on
+the social and technical networks underlying these ecosystems, enables
+developers of such ecosystems to take corrective actions. Further, this insight
+creates an avenue for future research, explaining in more detail, how such more
+successful networks can be created and maintained. Since firms are increasingly
+choosing "orchestration over production" when it comes to software code
+[@Parker2017], we contribute to research on a growing phenomenon.
 
 # Conclusion
 
