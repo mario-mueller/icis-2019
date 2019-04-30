@@ -25,10 +25,10 @@ front-end frameworks). Table 1 provides an overview of all three cases.
   Note: Angular needs to be differentiated from AngularJS, as Angular has
   emerged from a complete rewrite of AngularJS.
 
-<!-- ```{.table file="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrJ70zxeSEP32qRYyoIyiwmMVUu3mu-XwGhpZprxWAvWNyOqcFhjEqVk2xoLPr7N1ibmttJ260nbYn/pub?gid=0&single=true&output=csv" delimiter="," header="yes" align="LCCC" inlinemarkdown="yes"
+```{.table file="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrJ70zxeSEP32qRYyoIyiwmMVUu3mu-XwGhpZprxWAvWNyOqcFhjEqVk2xoLPr7N1ibmttJ260nbYn/pub?gid=0&single=true&output=csv" delimiter="," header="yes" align="LCCC" inlinemarkdown="yes"
 caption="Overview of Selected Ecosystems" width="0.25 0.25 0.25 0.25"}
 
-``` -->
+```
 
 ## Data Collection
 
