@@ -13,19 +13,19 @@ third-party developers [@Parker2017; @Yoo2013; @Yoo2010a], which has led to an
 increasing research interest on the phenomenon of POSSE [@Jacobides2018].
 
 In those ecosystems, developers make use of existing modules through a process
-of recombination and remixing when building modules, which they then contribute
-to the POSSE. Out of this process, two interconnected networks arise: (1) a
-hierarchy of _technical dependencies_ from one module to the next
+of recombination and remixing when building new modules, which they then
+contribute to the POSSE. Out of this process, two interconnected networks arise:
+(1) a hierarchy of _technical dependencies_ from one module to the next
 [@MacCormack2006], and (2) a social network of _actors_, contributing their
-skill and time to multiple modules [@Roberts2006]. As developers as actors form
-relationships and contribute to different modules and thereby transfer
-knowledge, they might introduce new technical dependencies, therefore coupling
-the social and technical networks. Similarly, as new technical dependencies are
-introduced to a module, developer networks might change as well -- for instance
+skill and time to multiple modules [@Roberts2006]. As actors (i.e., developers)
+form social relationships by contributing to various modules, they might also
+introduce new technical dependencies, therefore coupling the social and
+technical networks. Similarly, as new technical dependencies are introduced to a
+module, the social networks of the actors might change as well -- for instance
 by reporting bugs or seeking help. Studies have investigated the dynamics of
 changes of technical dependencies over time and whether or not to upgrade a
-dependency [@Bavota2013]. Similarly, social aspects such as relations among
-developers have been investigated as well, for example, with regard to the
+technical dependency [@Bavota2013]. Similarly, social aspects such as relations
+among developers have been investigated as well, for example, with regard to the
 effects of prior collaboration [@Hahn2008] or how open source software teams are
 structured [@Crowston2006].
 
@@ -34,7 +34,7 @@ participation in projects [e.g., @Baldwin2006; @MacCormack2006], the direction
 and consequence of changes of social or technical networks in POSSE have yet to
 be uncovered. This understanding of the relationship between the technical and
 social layers, and how they influence each other's structure, could explain the
-growth of those ecosystems and form critical success factors of POSSE.
+growth of those ecosystems and prove critical success factors of POSSE.
 Accordingly, we ask:
 
 > "_How do social networks and technical dependencies interact in platform-based
@@ -46,9 +46,9 @@ their respective digital ecosystems. In doing so, we aim to analyze both the
 technical and social networks of those ecosystems with digital trace data
 [@Berente2019] gathered from the projects' GitHub and npm repositories. For our
 analysis, we will primarily use network analysis techniques (i.e., cluster,
-temporal, and network motif analyses). The aim of our study is to uncover the
-underlying patterns and structures covering the social and technical perspective
-of POSSE.
+temporal, and network motif analyses). In doing so, the aim of our study is to
+uncover the underlying patterns and structures covering the social and technical
+perspective of POSSE.
 
 These findings contribute to theory and practices by, first, proposing a
 socio-technical approach for analyzing POSSE, combining both the technical and
@@ -57,10 +57,10 @@ POSSE and identify important predictors. Combined, this research therefore
 benefits both research and practice related to POSSE and digital platform
 ecosystems in general.
 
-The remainder of this paper is organized as follows: First, we summarize related
-work on open source software ecosystems and the influence of social and
-technical networks on the success of open source projects in general. Second,
-the proposed research design is introduced including the description of our data
-collection and analysis. Third, we present our expected results as well as our
-roadmap until ICIS 2019. Fourth, we conclude with a discussion about potential
+The remainder of this paper is organized as follows: First, we define and
+explain the concept of POSSE and the social and technical interdependencies in
+open source projects in general and in POSSE in particular. Second, the proposed
+research design is introduced including the description of our data collection
+and analysis. Third, we present our expected results as well as our roadmap
+until ICIS 2019. Fourth, we conclude with a discussion about potential
 challenges, risks, and our expected contributions.

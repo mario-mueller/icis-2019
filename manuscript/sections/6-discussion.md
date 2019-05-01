@@ -44,8 +44,12 @@ interdependencies and enables conclusions on who drives which aspects in the
 development in and ultimately the growth of POSSE. Being able to explain why
 some ecosystems are more successful or are growing faster than others, based on
 the social and technical networks underlying these ecosystems, enables
-developers of such ecosystems to take corrective actions. Further, this insight
-creates an avenue for future research, explaining in more detail, how such more
-successful networks can be created and maintained. Since firms are increasingly
-choosing "orchestration over production" when it comes to software code
-[@Parker2017], we contribute to research on a growing phenomenon.
+developers of such ecosystems to take corrective actions. In addition, we
+contribute to the growing stream of research analyzing digital platforms and
+their ecosystems by proposing a methdological approach for analyzing the
+socio-technical nature of these phenomenons using digital trace data. Further,
+this insight creates an avenue for future research, explaining in more detail,
+how such more successful networks can be created and maintained. Since firms are
+increasingly choosing "orchestration over production" when it comes to software
+code [@Parker2017], we contribute to research on a growing phenomenon.
+<!--TODO-->
