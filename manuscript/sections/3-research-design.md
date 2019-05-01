@@ -9,16 +9,17 @@ trace data [@Lindberg2019]. Here, we refer to digital trace data as "digital
 records of activities and events that involve information technologies"
 [@Berente2019, 51].
 
-We selected the three cases by following a theoretical sampling strategy.
-Looking for similar and established POSSE, we identified three suitable cases:
-(1) Angular[^1]\ (https://angular.io/), (2) React (https://reactjs.org/), (3)
-and Vue (https://vuejs.org/). All cases are currently among the most popular
-front-end-frameworks for web- or web-app-development [@StackOverflow2019].
-Further, they are suitable as all three ecosystems share similarities: they are
-written in JavaScript or derivatives (i.e., TypeScript) and aim at providing a
-basis for web- or app-development. While their respective implementations might
-differ, the ecosystems also remain similar due to their shared intent (i.e.,
-front-end frameworks). Table 1 provides an overview of all three cases.
+We selected the three ecosystems by following a theoretical sampling strategy.
+Looking for similar and established POSSE, we identified three suitable
+ecosystems: (1) Angular[^1]\ (https://angular.io/), (2) React
+(https://reactjs.org/), (3) and Vue (https://vuejs.org/). All ecosystems are
+currently among the most popular front-end-frameworks for web- or
+web-app-development [@StackOverflow2019]. Further, they are suitable as all
+three ecosystems share similarities: they are written in JavaScript or
+derivatives (i.e., TypeScript) and aim at providing a basis for web- or
+app-development. While their respective implementations might differ, the
+ecosystems also remain similar due to their shared intent (i.e., front-end
+frameworks). Table 1 provides an overview of all three ecosystems.
 
 [^1]:
 
@@ -32,9 +33,9 @@ caption="Overview of Selected Ecosystems" width="0.25 0.20 0.20 0.20"}
 
 ## Data Collection
 
-To collect data on our three cases, we utilize two main data sources: GitHub
-(https://github.com), which all three cases use as source code repository, and
-npm (https://npmjs.com), which all three cases use as release management and
+To collect data on our three ecosystems, we utilize two main data sources:
+GitHub (https://github.com), which all three use as source code repository, and
+npm (https://npmjs.com), which all three use as release management and
 distribution tool. If needed, we can extend our data collection to GH Archive
 (https://gharchive.org/), a publicly available data repository, recording and
 archiving timeline data from the GitHub API. However, as both GitHub and npm
