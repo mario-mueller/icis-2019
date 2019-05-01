@@ -28,7 +28,7 @@ interdependent modules through an ecosystem [@Jacobides2018] in which
 interoperability with the platform core is ensured through the usage of the
 platform's interfaces [@Tiwana2015]. This opens up POSSE for contributions from
 a wide range of developers and therefore raises the importance of understanding
-the interdependencies of social and technical layers involved. xxx
+the interdependencies of social and technical layers involved. xxx <!-- TODO -->
 
 ## Social and Technical Interdependencies in Open Source Projects
 
@@ -67,7 +67,13 @@ individuals from various species) lives. We adopt this term to define the areas
 of the POSSE that are made up from technical and social relationships between
 the individual third-party developers and the respective modules. Thereby, we
 aim to uncover communities, their habitats, and their effect on the underlying
-structure and growth of POSSE.
+structure and growth of POSSE. Figure 1 shows the components of POSSE and the
+connection between the social and technical layer.
+
+![The Social and Technical Layer in POSSE](figures/posse-layers.svg){#fig:label
+width="6.2in" height="3.8721in"}
+
+<!-- width="200.5pt" height="256.3pt" -->
 
 To sum up, POSSE are the intersection of effects relating to digital platforms,
 ecosystems, and OSS. This intersection, combined with the effects emerging from

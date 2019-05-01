@@ -95,7 +95,7 @@ interdependent modules through an ecosystem [@Jacobides2018] in which
 interoperability with the platform core is ensured through the usage of the
 platform's interfaces [@Tiwana2015]. This opens up POSSE for contributions from
 a wide range of developers and therefore raises the importance of understanding
-the interdependencies of social and technical layers involved. xxx
+the interdependencies of social and technical layers involved. xxx <!-- TODO -->
 
 ## Social and Technical Interdependencies in Open Source Projects
 
@@ -134,7 +134,13 @@ individuals from various species) lives. We adopt this term to define the areas
 of the POSSE that are made up from technical and social relationships between
 the individual third-party developers and the respective modules. Thereby, we
 aim to uncover communities, their habitats, and their effect on the underlying
-structure and growth of POSSE.
+structure and growth of POSSE. Figure 1 shows the components of POSSE and the
+connection between the social and technical layer.
+
+![The Social and Technical Layer in POSSE](figures/posse-layers.svg){#fig:label
+width="6.2in" height="3.8721in"}
+
+<!-- width="200.5pt" height="256.3pt" -->
 
 To sum up, POSSE are the intersection of effects relating to digital platforms,
 ecosystems, and OSS. This intersection, combined with the effects emerging from
@@ -164,10 +170,9 @@ basis for web- or app-development. While their respective implementations might
 differ, the ecosystems also remain similar due to their shared intent (i.e.,
 front-end frameworks). Table 1 provides an overview of all three cases.
 
-<!-- ```{.table file="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrJ70zxeSEP32qRYyoIyiwmMVUu3mu-XwGhpZprxWAvWNyOqcFhjEqVk2xoLPr7N1ibmttJ260nbYn/pub?gid=0&single=true&output=csv" delimiter="," header="yes" align="LCCC" inlinemarkdown="yes"
-caption="Overview of Selected Ecosystems" width="0.25 0.25 0.25 0.25"}
+```{.table file="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrJ70zxeSEP32qRYyoIyiwmMVUu3mu-XwGhpZprxWAvWNyOqcFhjEqVk2xoLPr7N1ibmttJ260nbYn/pub?gid=0&single=true&output=csv" delimiter="," header="yes" align="LCCC" inlinemarkdown="yes" caption="Overview of Selected Ecosystems" width="0.25 0.25 0.25 0.25"}
 
-``` -->
+```
 
 ## Data Collection
 
