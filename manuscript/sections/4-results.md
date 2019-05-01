@@ -1,5 +1,8 @@
 # Expected Results
 
+<!-- TODO Hier kommen ziemlich starke assertions, sogar propositions, die wir einfach so hinschreiben - ohne References oder Theory. Sollten wir aber einbauen?
+-->
+
 Due to the explorative nature of this study, we remain open to different results
 and different explanations [cf. @Lindberg2019]. However, based on existing work,
 we have some prior assertions, which we expect to see.

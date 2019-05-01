@@ -97,7 +97,12 @@ platform's interfaces [@Tiwana2015]. This opens up POSSE for contributions from
 a wide range of developers and therefore raises the importance of understanding
 the interdependencies of social and technical layers involved.
 
-<!-- TODO Add a sentence or two-->
+<!-- TODO Add a sentence or two
+
+Ethiraj, S. K., and Levinthal, D. 2004. “Modularity and Innovation in Complex Systems,” Management Science (50:2), pp. 159–173.
+
+
+-->
 
 ## Social and Technical Interdependencies in Open Source Projects
 
@@ -269,6 +274,9 @@ of an ecosystem. Especially by including a temporal dimension, we are able to
 identify cause and effect more clearly [cf.  @Lindberg2019].
 
 # Expected Results
+
+<!-- TODO Hier kommen ziemlich starke assertions, sogar propositions, die wir einfach so hinschreiben - ohne References oder Theory. Sollten wir aber einbauen?
+-->
 
 Due to the explorative nature of this study, we remain open to different results
 and different explanations [cf.  @Lindberg2019]. However, based on existing

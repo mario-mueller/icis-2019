@@ -6,9 +6,6 @@ Social and Technical Digital Traces </br>
   </a>
 </h1>
 
-Research-in-Progress submission for the International Conference on Information
-Systems (ICIS) 2019 in Munich, Germany.
-
 ## Authors
 
 - Mario Müller, University of Cologne, mario.mueller@wiso.uni-koeln.de
@@ -30,5 +27,5 @@ POSSE. By uncovering the locations of those communities, which we refer to as
 digital habits, we aim to contribute to research on digital platforms and
 ecosystems through explaining the success and growth of POSSE.
 
-_**Keywords**_: Open Source; Digital Platforms; Digital Ecosytems; Digital
-Traces; Networks Analysis
+_**Keywords**_: Open Source; Digital Platforms; Digital Ecosystems; Digital
+Traces; Network Analysis
