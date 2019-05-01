@@ -28,4 +28,4 @@ of the including module towards collaborators of the dependency.
 Further, we expect number of modules to correlate with download numbers, as a
 higher number of available modules might increase the value of an ecosystem for
 developers, as more modules might increase reuse and the chance to find a
-suitable module for a problem at hand. Due to network effects, xxx
+suitable module for a problem at hand. <!-- TODO Due to network effects, xxx -->

@@ -28,7 +28,9 @@ interdependent modules through an ecosystem [@Jacobides2018] in which
 interoperability with the platform core is ensured through the usage of the
 platform's interfaces [@Tiwana2015]. This opens up POSSE for contributions from
 a wide range of developers and therefore raises the importance of understanding
-the interdependencies of social and technical layers involved. xxx <!-- TODO -->
+the interdependencies of social and technical layers involved.
+
+<!-- TODO Add a sentence or two-->
 
 ## Social and Technical Interdependencies in Open Source Projects
 

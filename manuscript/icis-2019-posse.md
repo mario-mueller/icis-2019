@@ -95,7 +95,9 @@ interdependent modules through an ecosystem [@Jacobides2018] in which
 interoperability with the platform core is ensured through the usage of the
 platform's interfaces [@Tiwana2015]. This opens up POSSE for contributions from
 a wide range of developers and therefore raises the importance of understanding
-the interdependencies of social and technical layers involved. xxx <!-- TODO -->
+the interdependencies of social and technical layers involved.
+
+<!-- TODO Add a sentence or two-->
 
 ## Social and Technical Interdependencies in Open Source Projects
 
@@ -170,7 +172,7 @@ basis for web- or app-development. While their respective implementations might
 differ, the ecosystems also remain similar due to their shared intent (i.e.,
 front-end frameworks). Table 1 provides an overview of all three cases.
 
-```{.table file="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrJ70zxeSEP32qRYyoIyiwmMVUu3mu-XwGhpZprxWAvWNyOqcFhjEqVk2xoLPr7N1ibmttJ260nbYn/pub?gid=0&single=true&output=csv" delimiter="," header="yes" align="LCCC" inlinemarkdown="yes" caption="Overview of Selected Ecosystems" width="0.25 0.25 0.25 0.25"}
+```{.table file="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrJ70zxeSEP32qRYyoIyiwmMVUu3mu-XwGhpZprxWAvWNyOqcFhjEqVk2xoLPr7N1ibmttJ260nbYn/pub?gid=0&single=true&output=csv" delimiter="," header="yes" align="LCCC" inlinemarkdown="yes" caption="Overview of Selected Ecosystems" width="0.25 0.20 0.20 0.20"}
 
 ```
 
@@ -296,7 +298,7 @@ of the including module towards collaborators of the dependency.
 Further, we expect number of modules to correlate with download numbers, as a
 higher number of available modules might increase the value of an ecosystem for
 developers, as more modules might increase reuse and the chance to find a
-suitable module for a problem at hand. Due to network effects, xxx
+suitable module for a problem at hand. <!-- TODO Due to network effects, xxx -->
 
 # Future Plan
 
