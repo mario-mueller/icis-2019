@@ -97,13 +97,6 @@ platform's interfaces [@Tiwana2015]. This opens up POSSE for contributions from
 a wide range of developers and therefore raises the importance of understanding
 the interdependencies of social and technical layers involved.
 
-<!-- TODO Add a sentence or two
-
-Ethiraj, S. K., and Levinthal, D. 2004. “Modularity and Innovation in Complex Systems,” Management Science (50:2), pp. 159–173.
-
-
--->
-
 ## Social and Technical Interdependencies in Open Source Projects
 
 OSS projects rely heavily on the communities surrounding these projects --
@@ -274,9 +267,6 @@ identify cause and effect more clearly [cf.  @Lindberg2019].
 
 # Expected Results
 
-<!-- TODO Hier kommen ziemlich starke assertions, sogar propositions, die wir einfach so hinschreiben - ohne References oder Theory. Sollten wir aber einbauen?
--->
-
 Due to the explorative nature of this study, we remain open to different results
 and different explanations [cf.  @Lindberg2019]. However, based on existing
 work, we have some prior assertions, which we expect to see.
@@ -305,7 +295,7 @@ of the including module towards collaborators of the dependency.
 Further, we expect number of modules to correlate with download numbers, as a
 higher number of available modules might increase the value of an ecosystem for
 developers, as more modules might increase reuse and the chance to find a
-suitable module for a problem at hand. <!-- TODO Due to network effects, xxx -->
+suitable module for a problem at hand.
 
 # Future Plan
 
@@ -378,8 +368,6 @@ this insight creates an avenue for future research, explaining in more detail,
 how such more successful networks can be created and maintained. Since firms are
 increasingly choosing "orchestration over production" when it comes to software
 code [@Parker2017], we contribute to research on a growing phenomenon.
-
-<!--TODO-->
 
 # Conclusion
 
