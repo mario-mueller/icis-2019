@@ -30,13 +30,6 @@ platform's interfaces [@Tiwana2015]. This opens up POSSE for contributions from
 a wide range of developers and therefore raises the importance of understanding
 the interdependencies of social and technical layers involved.
 
-<!-- TODO Add a sentence or two
-
-Ethiraj, S. K., and Levinthal, D. 2004. “Modularity and Innovation in Complex Systems,” Management Science (50:2), pp. 159–173.
-
-
--->
-
 ## Social and Technical Interdependencies in Open Source Projects
 
 OSS projects rely heavily on the communities surrounding these projects --
@@ -79,8 +72,6 @@ connection between the social and technical layer.
 
 ![The Social and Technical Layer in POSSE](figures/posse-layers.svg){#fig:label
 width="6.2in" height="3.8721in"}
-
-<!-- width="200.5pt" height="256.3pt" -->
 
 To sum up, POSSE are the intersection of effects relating to digital platforms,
 ecosystems, and OSS. This intersection, combined with the effects emerging from

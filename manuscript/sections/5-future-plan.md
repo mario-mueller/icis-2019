@@ -11,6 +11,6 @@ on initial observations from the collected data. This step is important to have
 a clearer understanding of the structure of the data and to prepare for detailed
 quantitative analysis. We expect this step to be completed by October 2019.
 Third, we plan on conducting a detailed quantitative analysis before December
-2019, which contents have been laid out in the previous section. Lastly, if time
+2019, which contents have been laid out in the previous section. Finaly, if time
 permits, we hope to have derived preliminary implications for research and
 practice based on the detailed quantitative data analysis.

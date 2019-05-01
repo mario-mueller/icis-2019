@@ -52,4 +52,3 @@ this insight creates an avenue for future research, explaining in more detail,
 how such more successful networks can be created and maintained. Since firms are
 increasingly choosing "orchestration over production" when it comes to software
 code [@Parker2017], we contribute to research on a growing phenomenon.
-<!--TODO-->

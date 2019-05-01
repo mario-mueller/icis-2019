@@ -147,8 +147,6 @@ connection between the social and technical layer.
 ![The Social and Technical Layer in POSSE](figures/posse-layers.svg){#fig:label
 width="6.2in" height="3.8721in"}
 
-<!-- width="200.5pt" height="256.3pt" -->
-
 To sum up, POSSE are the intersection of effects relating to digital platforms,
 ecosystems, and OSS. This intersection, combined with the effects emerging from
 the intertwined relationship of social and technical aspects, are uncharted
@@ -322,7 +320,7 @@ on initial observations from the collected data. This step is important to have
 a clearer understanding of the structure of the data and to prepare for detailed
 quantitative analysis. We expect this step to be completed by October 2019.
 Third, we plan on conducting a detailed quantitative analysis before December
-2019, which contents have been laid out in the previous section. Lastly, if time
+2019, which contents have been laid out in the previous section. Finaly, if time
 permits, we hope to have derived preliminary implications for research and
 practice based on the detailed quantitative data analysis.
 

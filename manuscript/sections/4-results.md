@@ -1,8 +1,5 @@
 # Expected Results
 
-<!-- TODO Hier kommen ziemlich starke assertions, sogar propositions, die wir einfach so hinschreiben - ohne References oder Theory. Sollten wir aber einbauen?
--->
-
 Due to the explorative nature of this study, we remain open to different results
 and different explanations [cf. @Lindberg2019]. However, based on existing work,
 we have some prior assertions, which we expect to see.
@@ -31,4 +28,4 @@ of the including module towards collaborators of the dependency.
 Further, we expect number of modules to correlate with download numbers, as a
 higher number of available modules might increase the value of an ecosystem for
 developers, as more modules might increase reuse and the chance to find a
-suitable module for a problem at hand. <!-- TODO Due to network effects, xxx -->
+suitable module for a problem at hand.
