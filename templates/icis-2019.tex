@@ -1,0 +1,102 @@
+%!TEX TS-program = xelatex
+
+% Paper Layout
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+
+% Load required packages
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{longtable,booktabs}
+\usepackage{fontspec, xunicode, xltxtra, graphicx}
+\usepackage{ragged2e} % justify text
+
+\hypersetup{
+  pdftitle={$title$},
+  pdfsubject={ICIS 2019},
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black
+}
+
+\usepackage[labelsep=period,font=bf]{caption} % Replaces caption colon with period
+
+% Disable indent and set space after paragraph
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% Get rid of spacing inside lists
+\usepackage{enumitem}
+\setlist{topsep=0pt,itemsep=0pt,partopsep=0pt,parsep=0pt}
+
+% Change list characters
+\usepackage{mathabx} % required for sqbullet
+\renewcommand\labelitemi{$$\bullet$$}
+\renewcommand\labelitemii{$$\circ$$}
+\renewcommand\labelitemiii{$$\sqbullet$$}
+\renewcommand\labelitemiv{$$\bullet$$}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Typography
+\setmainfont{Georgia}
+\urlstyle{same} % Set url font to document font
+
+% Set font sizes for headings, etc.
+\renewcommand{\normalsize}{\fontsize{10pt}{12pt}\selectfont} % Body
+\renewcommand{\Huge}{\fontsize{20pt}{24pt}\selectfont} % Title
+\renewcommand{\Large}{\fontsize{12pt}{14pt}\selectfont} % Research Type
+\renewcommand{\LARGE}{\fontsize{13pt}{15pt}\selectfont} % H1
+\renewcommand{\large}{\fontsize{11pt}{13pt}\selectfont} % H2 & H3
+\renewcommand{\small}{\fontsize{9pt}{11pt}\selectfont} % Header & Footer
+
+% Single line spacing
+\usepackage{setspace}
+\singlespacing
+
+% Map formating to headings
+\usepackage{titlesec}
+\titleformat*{\section}{\LARGE\bfseries}
+\titleformat*{\subsection}{\large\bfseries\itshape}
+\titleformat*{\subsubsection}{\bfseries}
+
+\setcounter{secnumdepth}{0} % Disable section numbering
+
+% Spacing
+% Space reduced from 10pt to 4pt because of parskip conflict
+
+\titlespacing*{\section}{0pt}{4pt}{4pt}
+\titlespacing*{\subsection}{0pt}{4pt}{4pt}
+\titlespacing*{\subsubsection}{0pt}{4pt}{4pt}
+
+% Header and Footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\small\textit{$short-title$}}
+\rfoot{\small\textit{Fortieth International Conference on Information Systems, Munich 2019}\hspace{5mm}\textbf{\thepage}}
+
+% Remove horizontal rules
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Title
+\renewcommand{\maketitle}{
+  \begin{center}
+    \Huge\textbf{$title$}\par
+    \Large\textit{$submission-type$}
+  \end{center}
+}
+
+% Document
+\begin{document}
+  $if(title)$
+    \maketitle
+  $endif$
+
+  $body$
+\end{document}
