@@ -4,6 +4,29 @@ title:
   Social and Technical Digital Traces"
 short-title: "Digital Habitats in Open Source Ecosystems" # Up to 8 words
 submission-type: "Short Paper" # Completed Research Paper, Short Paper, Paper-a-thon, Teaching Case, Panel, PDW
+author:
+  - name: "Mario Mueller"
+    institute: "Cologne Institute for Information Systems (CIIS)"
+    affiliation: "University of Cologne"
+    email: "mario.mueller@wiso.uni-koeln.de"
+  - name: "Phil Diegmann"
+    institute: "Cologne Institute for Information Systems (CIIS)"
+    affiliation: "University of Cologne"
+    email: "diegmann@wiso.uni-koeln.de"
+  - name: "Christoph Rosenkranz"
+    institute: "Cologne Institute for Information Systems (CIIS)"
+    affiliation: "University of Cologne"
+    email: "rosenkranz@wiso.uni-koeln.de"
+abstract: |
+  Open source software is increasingly becoming platform-based, thereby evolving and depending on an ecosystem of third-party developers and their contributions in the form of modules. Thus, platform-based open source software ecosystems (POSSE) are structured based on social networks formed by the relationships between third-party developers as well as technical networks formed by dependencies between the modules extending the platform. Despite the socio-technical nature of POSSE, little is known about the interplay and influencing factors between those two layers. In this short paper, we present our planned study to uncover the underlying technical and social networks of POSSE. By uncovering the locations of those communities, which we refer to as digital habits, we aim to contribute to research on digital platforms and ecosystems through explaining the success and growth of POSSE.
+keywords:
+  [
+    Open Source; Digital Platforms; Digital Ecosystems; Digital Traces; Network
+    Analysis,
+  ]
+
+# If true, adds author information, abstract, and keywords
+camera-ready: False # False
 
 ---
 
