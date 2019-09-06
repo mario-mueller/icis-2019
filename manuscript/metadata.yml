@@ -1,8 +1,8 @@
 ---
 title:
-  "Digital Habitats in Open Source Ecosystems: Uncovering Communities Using
-  Social and Technical Digital Traces"
-short-title: "Digital Habitats in Open Source Ecosystems" # Up to 8 words
+  "Coevolution of Platform-based Open Source Ecosystems: Uncovering
+  Socio-Technical Dynamics Using Digital Traces"
+short-title: "Coevolution of Platform-based Open Source Ecosystems" # Up to 8 words
 submission-type: "Short Paper" # Completed Research Paper, Short Paper, Paper-a-thon, Teaching Case, Panel, PDW
 author:
   - name: "Mario Mueller"
@@ -18,15 +18,15 @@ author:
     affiliation: "University of Cologne"
     email: "rosenkranz@wiso.uni-koeln.de"
 abstract: |
-  Open source software is increasingly becoming platform-based, thereby evolving and depending on an ecosystem of third-party developers and their contributions in the form of modules. Thus, platform-based open source software ecosystems (POSSE) are structured based on social networks formed by the relationships between third-party developers as well as technical networks formed by dependencies between the modules extending the platform. Despite the socio-technical nature of POSSE, little is known about the interplay and influencing factors between those two layers. In this short paper, we present our planned study to uncover the underlying technical and social networks of POSSE. By uncovering the locations of those communities, which we refer to as digital habits, we aim to contribute to research on digital platforms and ecosystems through explaining the success and growth of POSSE.
+  Open source software is increasingly becoming platform-based, thereby evolving and depending on an ecosystem of third-party developers and their contributions in the form of modules. Thus, platform-based open source software ecosystems (POSSE) are structured based on social networks formed by the relationships between third-party developers as well as technical networks formed by dependencies between the modules extending the platform core. Despite the socio-technical nature, little is known about the interplay of the social and the technical networks, and its influence on the evolution of POSSE. In this short paper, we present our planned study to uncover the socio-technical dynamics of POSSE. By uncovering these dynamics and their effect on the evolution of POSSE, we aim to contribute to research on digital platforms and ecosystems through explaining their success and growth.
 keywords:
   [
-    Open Source; Digital Platforms; Digital Ecosystems; Digital Traces; Network
-    Analysis,
+    Open source; digital ecosystems; ecosystem dynamics; network analysis;
+    data-driven approach,
   ]
 
 # If true, adds author information, abstract, and keywords
-camera-ready: False # False
+camera-ready: True # False
 
 ---
 

@@ -82,6 +82,11 @@ ODT=$(SRC:.md=.odt)
 ## DOCX
 %.docx: %.md
 	@echo "Creating Word document from manuscript..."
+	@-pandoc -r $(PANDOC_OPTIONS) $(SOURCE)/metadata.yml -s $(PANDOC_FILTER) --csl=$(TEMPLATES)/csl/$(CSL).csl --bibliography=$(BIB) -o $@ $<
+
+## DOCX using Template
+%.docxt: %.md
+	@echo "Creating Word document from manuscript..."
 	@-pandoc -r $(PANDOC_OPTIONS) $(PANDOC_DOCX_OPTIONS) $(SOURCE)/metadata.yml -s $(PANDOC_FILTER) --csl=$(TEMPLATES)/csl/$(CSL).csl --bibliography=$(BIB) -o $@ $<
 
 ## ODT
