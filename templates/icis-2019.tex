@@ -84,6 +84,11 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 
+% Float figures 
+\urlstyle{same}
+\usepackage{float}
+\floatplacement{figure}{H}
+
 % Title
 \renewcommand{\maketitle}{
   \begin{center}
@@ -91,6 +96,17 @@
     \Large\textit{$submission-type$}
   \end{center}
 }
+
+% References
+$if(csl-refs)$
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{0.63cm}
+
+\newenvironment{cslreferences}%
+  {$if(csl-hanging-indent)$\setlength{\parindent}{0pt}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}%
+  {\par}
+$endif$
 
 % Document
 \begin{document}
